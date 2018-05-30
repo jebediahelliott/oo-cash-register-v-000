@@ -25,5 +25,5 @@ attr_accessor :total, :discount, :items
     "After the discount, the total comes to $#{self.total}."
   end
 
-  
+
 end
