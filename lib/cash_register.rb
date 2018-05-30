@@ -25,5 +25,9 @@ attr_accessor :total, :discount, :items
     "After the discount, the total comes to $#{self.total}."
   end
 
+  def void_last_transaction
+    self.total = self.total - self.items.last
+  end
+
 
 end
